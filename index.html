@@ -8,9 +8,7 @@ Welcome to my new page
         $url = file_get_contents("link.txt");
         $url_arr = explode("\n" , $url);
         for($i = 0; $i < count($url_arr);$i++)
-        {
-            echo "<img src = '".$url_arr[$i]."' alt="image" width="20%" height "40%">";
-        }
-    ?>
+        {echo "<img src = '".$url_arr[$i]."' alt="image" width="20%" height "40%">";}
+     ?>
 </body>
 </html>
